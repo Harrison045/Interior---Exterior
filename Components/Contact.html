@@ -10,14 +10,24 @@
       integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
       crossorigin="anonymous"
     />
+    <!-- Remix icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <link rel="stylesheet" href="../css/Contact.css" type="text/css" />
     <link rel="stylesheet" href="../css/Navbar.css" type="text/css" />
     <title>Contact</title>
   </head>
-  <body>
+  <body class="body">
     <div class="hero">
       <nav class="navbar navbar-expand-lg nav">
         <div class="container-fluid">
-          <a class="navbar-brand " href="../Components/Home.html">Navbar</a>
+          <a class="navbar-brand" href="../Components/Home.html">Navbar</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -76,7 +86,133 @@
         </div>
       </nav>
     </div>
-    <h1>Contact</h1>
+
+    <div class="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col collaborate">
+            <h1>Let's Collaborate</h1>
+            <p class="www">www.companyemail.com</p>
+          </div>
+          <div class="col">
+            <h6>Say Hello</h6>
+            <br />
+            <form>
+              <div class="form">
+                <label for="text">Name</label>
+                <br />
+                <input
+                  type="text"
+                  name="text"
+                  placeholder="Enter Name"
+                  class="name"
+                />
+                <br />
+                <br />
+                <label for="text">Email</label>
+                <br />
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Enter Email"
+                  class="email"
+                />
+                <br />
+                <br />
+                <label for="text">Phone Number</label>
+                <br />
+                <input
+                  type="number"
+                  name="number"
+                  placeholder="Enter Number"
+                  class="number"
+                />
+                <br />
+                <br />
+                <label for="text">How can we help</label>
+                <br />
+                <textarea
+                  name="textarea"
+                  cols="50"
+                  rows="1"
+                  placeholder="Tell Us"
+                  class="textarea"
+                ></textarea>
+                <br />
+                <br />
+                <button type="button" class="button">
+                  <span>Submit</span>
+                  <i class="bx bx-check"></i>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <br />
+        <br />
+        <br />
+
+        <div class="row">
+          <div class="col">
+            <h6>Find Us</h6>
+            <br />
+            <div class="icons">
+              <a href="#" class="icon icon--instagram">
+                <i class="ri-instagram-line"></i>
+              </a>
+              <a href="#" class="icon icon--twitter">
+                <i class="ri-twitter-line"></i>
+              </a>
+              <a href="#" class="icon icon--linkedin">
+                <i class="ri-linkedin-line"></i>
+              </a>
+              <a href="#" class="icon icon--github">
+                <i class="ri-github-line"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col">
+            <h6>Call Us</h6>
+            <br />
+            <p>+233 (0) 592 309 059</p>
+          </div>
+          <div class="col"></div>
+        </div>
+      </div>
+    </div>
+    <br />
+    <br />
+    <br />
+
+    <!-- Footer -->
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col copyright">
+            © 2023 Your Company. All Rights Reserved
+          </div>
+          <div class="col icon-css">
+            <!--Icons-->
+            <div class="icons">
+              <a href="#" class="icon icon--instagram">
+                <i class="ri-instagram-line"></i>
+              </a>
+              <a href="#" class="icon icon--twitter">
+                <i class="ri-twitter-line"></i>
+              </a>
+              <a href="#" class="icon icon--linkedin">
+                <i class="ri-linkedin-line"></i>
+              </a>
+              <a href="#" class="icon icon--github">
+                <i class="ri-github-line"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"

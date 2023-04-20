@@ -18,7 +18,7 @@
 
 /* Card of team */
 
-.container {
+.container1 {
     /* height: 100vh;
     width: 100vw; */
      max-height: 800px;
@@ -57,6 +57,35 @@
     cursor: pointer;
   }
   
+  h6 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+    margin: 20px;
+    opacity: 0;
+    transition: opacity 1s;
+  }
+  
+  h6:hover {
+    color: #000;
+    cursor: pointer;
+  }
+
+  .chief {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+    margin: 20px;
+    opacity: 0;
+    transition: opacity 1s;
+    font-size: 0.6rem;
+    position: relative;
+    bottom: 1rem;
+  }
+  
+  .chief:hover {
+    color: #000;
+    cursor: pointer;
+  }
+  
   .fa {
     opacity: 0;
     transition: opacity 1s;
@@ -86,16 +115,24 @@
   
   .card1:hover {
     background: url("../Images/christina-wocintechchat-com-0Zx1bDv5BNY-unsplash.jpg") left center no-repeat;
-    background-size: 600px;
+    background-size: 500px;
   }
 
   .card1:hover h2 {
+    opacity: 1;
+  }
+
+.card1:hover .chief {
+  opacity: 1;
+}
+.card1:hover h6 {
     opacity: 1;
   }
   
   .card1:hover .fa {
     opacity: 1;
   }
+
 
   /* Second Team member pic */
 
@@ -113,11 +150,20 @@
   .card2:hover h2 {
     opacity: 1;
   }
+
+  .card2:hover h6 {
+    opacity: 1;
+  }
+  .card2:hover .chief {
+    opacity: 1;
+  }
+  
+
+  
   
   .card2:hover .fa {
     opacity: 1;
   }
-
   /* Third Team Memner */
 
   .card3 {
@@ -134,12 +180,18 @@
   .card3:hover h2 {
     opacity: 1;
   }
+  .card3:hover .chief {
+    opacity: 1;
+  }
+  .card3:hover h6 {
+      opacity: 1;
+    }
   
   .card3:hover .fa {
     opacity: 1;
   }
   
-  .icons {
+  .icons1 {
     position: absolute;
     fill: #fff;
     color: #fff;
@@ -152,7 +204,88 @@
     justify-content: space-around;
   }
   
-  .icon:hover {
+  .icon1:hover {
     color: #000000;
     cursor: pointer;
   }
+
+  
+  /*Footer*/
+  .footer{
+    padding-top: 2rem;
+  }
+  
+  .copyright {
+    font-size: x-small;
+    padding-top: 0.5rem;
+  }
+  
+  .icon-css{
+    padding-bottom: 0.5rem;
+  }
+  
+  /*Icon*/
+  .icons {
+    display: flex;
+    column-gap: 25px;
+  }
+  .icon {
+    display: inline-flex;
+    width: 25px;
+    height: 25px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #000000;
+    border-radius: 50%;
+    outline: 2px solid #000000;
+    transition-property: outline-offset, outline-color, background-color;
+    transition-duration: 0.25s;
+  }
+  .icon:hover {
+    outline-offset: 4px;
+  }
+  .icon i {
+    margin: auto;
+  }
+  .icon:hover i {
+    animation: shake 0.25s;
+  }
+  .icon--instagram:hover {
+    background-image: radial-gradient(
+      circle at 30% 107%,
+      #fdf497 0%,
+      #fdf497 5%,
+      #fd5949 45%,
+      #d6249f 60%,
+      #285aeb 90%
+    );
+    outline-color: #a02d76;
+  }
+  .icon--twitter:hover {
+    background-color: #1da1f2;
+    outline-color: #1da1f2;
+  }
+  .icon--linkedin:hover {
+    background-color: #0077b5;
+    outline-color: #0077b5;
+  }
+  .icon--github:hover {
+    background-color: #000000;
+    outline-color: #000000;
+    color: white;
+  }
+  @keyframes shake {
+    10% {
+      transform: rotate(15deg);
+    }
+    20% {
+      transform: rotate(-15deg);
+    }
+    30% {
+      transform: rotate(15deg);
+    }
+    40% {
+      transform: rotate(-15deg);
+    }
+  }
+
