@@ -9,108 +9,146 @@
   text-align: center;
   padding-top: 4rem;
 }
+.line{
+  background-color: #1da1f2;
+  width: 12rem;
+  height: 0.2rem;
+}
+#quote {
+  text-align: center;
+  font-weight: 700;
+  font-size: x-large;
+}
+#quote::first-letter {
+  font-size: xx-large;
+  color: #fd5949;
+}
+
+/* Interior Css */
 .interior-col {
   padding-top: 8rem;
 }
 .interior {
-  width: 35rem;
-  height: 30rem;
+  width: 25rem;
+  height: 15rem;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.05) 0px 8px 32px;
 }
 #interior {
   font-weight: 900;
+  font-size: smaller;
   text-transform: uppercase;
+  color: #1da1f2;
 }
-#exterior{
-    padding-top: 8rem;
+.img-col{
+  padding-top: 10rem;  
+}
+
+/* Exterior css */
+
+#exterior {
+  padding-top: 8rem;
+}
+#exterior-col{
+  font-weight: 900;
+  font-size: smaller;
+  text-transform: uppercase;
+  color: #1da1f2;
 }
 .exterior {
-  width: 35rem;
+  width: 25rem;
   height: 20rem;
+  /* box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.05) 0px 8px 32px; */
+    padding-top: 4rem;
 }
 .exterior-col {
-    padding-top: 3rem;
-  }
-.pergola{
-    width: 35rem;
+  padding-top: 3rem;
+  
+}
+.img-col1{}
+
+
+.pergola {
+  width: 35rem;
   height: 25rem;
 }
 
 /*Footer*/
-.footer{
-    padding-top: 2rem;
-  }
-  
-  .copyright {
-    font-size: x-small;
-    padding-top: 0.5rem;
-  }
-  
-  .icon-css{
-    padding-bottom: 0.5rem;
-  }
-  
-  /*Icon*/
-  .icons {
-    display: flex;
-    column-gap: 25px;
-  }
-  .icon {
-    display: inline-flex;
-    width: 25px;
-    height: 25px;
-    text-decoration: none;
-    font-size: 15px;
-    color: #000000;
-    border-radius: 50%;
-    outline: 2px solid #000000;
-    transition-property: outline-offset, outline-color, background-color;
-    transition-duration: 0.25s;
-  }
-  .icon:hover {
-    outline-offset: 4px;
-  }
-  .icon i {
-    margin: auto;
-  }
-  .icon:hover i {
-    animation: shake 0.25s;
-  }
-  .icon--instagram:hover {
-    background-image: radial-gradient(
-      circle at 30% 107%,
-      #fdf497 0%,
-      #fdf497 5%,
-      #fd5949 45%,
-      #d6249f 60%,
-      #285aeb 90%
-    );
-    outline-color: #a02d76;
-  }
-  .icon--twitter:hover {
-    background-color: #1da1f2;
-    outline-color: #1da1f2;
-  }
-  .icon--linkedin:hover {
-    background-color: #0077b5;
-    outline-color: #0077b5;
-  }
-  .icon--github:hover {
-    background-color: #000000;
-    outline-color: #000000;
-    color: white;
-  }
-  @keyframes shake {
-    10% {
-      transform: rotate(15deg);
-    }
-    20% {
-      transform: rotate(-15deg);
-    }
-    30% {
-      transform: rotate(15deg);
-    }
-    40% {
-      transform: rotate(-15deg);
-    }
-  }
+.footer {
+  padding-top: 2rem;
+}
 
+.copyright {
+  font-size: x-small;
+  padding-top: 0.5rem;
+}
+
+.icon-css {
+  padding-bottom: 0.5rem;
+}
+
+/*Icon*/
+.icons {
+  display: flex;
+  column-gap: 25px;
+}
+.icon {
+  display: inline-flex;
+  width: 25px;
+  height: 25px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #000000;
+  border-radius: 50%;
+  outline: 2px solid #000000;
+  transition-property: outline-offset, outline-color, background-color;
+  transition-duration: 0.25s;
+}
+.icon:hover {
+  outline-offset: 4px;
+}
+.icon i {
+  margin: auto;
+}
+.icon:hover i {
+  animation: shake 0.25s;
+}
+.icon--instagram:hover {
+  background-image: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  outline-color: #a02d76;
+}
+.icon--twitter:hover {
+  background-color: #1da1f2;
+  outline-color: #1da1f2;
+}
+.icon--linkedin:hover {
+  background-color: #0077b5;
+  outline-color: #0077b5;
+}
+.icon--github:hover {
+  background-color: #000000;
+  outline-color: #000000;
+  color: white;
+}
+@keyframes shake {
+  10% {
+    transform: rotate(15deg);
+  }
+  20% {
+    transform: rotate(-15deg);
+  }
+  30% {
+    transform: rotate(15deg);
+  }
+  40% {
+    transform: rotate(-15deg);
+  }
+}

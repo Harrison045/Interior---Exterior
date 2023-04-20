@@ -107,11 +107,11 @@
     border-width: 0 3px 3px 0;
 }
 
-.button:hover::before,
+ .button:hover::before,
 .button:hover::after {
     width: calc(100% + 29px);
     height: calc(100% + 29px);
-}
+} 
 
 
 /*Footer*/
