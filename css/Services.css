@@ -1,0 +1,116 @@
+.hero {
+  height: 50vh;
+  width: 98vw;
+  background-image: url(../Images/jared-rice-PibraWHb4h8-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.services {
+  text-align: center;
+  padding-top: 4rem;
+}
+.interior-col {
+  padding-top: 8rem;
+}
+.interior {
+  width: 35rem;
+  height: 30rem;
+}
+#interior {
+  font-weight: 900;
+  text-transform: uppercase;
+}
+#exterior{
+    padding-top: 8rem;
+}
+.exterior {
+  width: 35rem;
+  height: 20rem;
+}
+.exterior-col {
+    padding-top: 3rem;
+  }
+.pergola{
+    width: 35rem;
+  height: 25rem;
+}
+
+/*Footer*/
+.footer{
+    padding-top: 2rem;
+  }
+  
+  .copyright {
+    font-size: x-small;
+    padding-top: 0.5rem;
+  }
+  
+  .icon-css{
+    padding-bottom: 0.5rem;
+  }
+  
+  /*Icon*/
+  .icons {
+    display: flex;
+    column-gap: 25px;
+  }
+  .icon {
+    display: inline-flex;
+    width: 25px;
+    height: 25px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #000000;
+    border-radius: 50%;
+    outline: 2px solid #000000;
+    transition-property: outline-offset, outline-color, background-color;
+    transition-duration: 0.25s;
+  }
+  .icon:hover {
+    outline-offset: 4px;
+  }
+  .icon i {
+    margin: auto;
+  }
+  .icon:hover i {
+    animation: shake 0.25s;
+  }
+  .icon--instagram:hover {
+    background-image: radial-gradient(
+      circle at 30% 107%,
+      #fdf497 0%,
+      #fdf497 5%,
+      #fd5949 45%,
+      #d6249f 60%,
+      #285aeb 90%
+    );
+    outline-color: #a02d76;
+  }
+  .icon--twitter:hover {
+    background-color: #1da1f2;
+    outline-color: #1da1f2;
+  }
+  .icon--linkedin:hover {
+    background-color: #0077b5;
+    outline-color: #0077b5;
+  }
+  .icon--github:hover {
+    background-color: #000000;
+    outline-color: #000000;
+    color: white;
+  }
+  @keyframes shake {
+    10% {
+      transform: rotate(15deg);
+    }
+    20% {
+      transform: rotate(-15deg);
+    }
+    30% {
+      transform: rotate(15deg);
+    }
+    40% {
+      transform: rotate(-15deg);
+    }
+  }
+
