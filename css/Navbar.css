@@ -11,6 +11,9 @@
   display: flex;
   gap: 40px;
 }
+.home{
+  color: #fff;
+}
 .list .list-li .list-a{
 font-weight: 700;
 text-decoration: none;
@@ -36,5 +39,8 @@ transition: 0.5s ease;
 } */
 
 .list1 {
-  color: #fff;
+  color: #cecfcf;
+}
+.list2{
+  color: #cecfcf;
 }

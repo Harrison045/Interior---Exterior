@@ -1,16 +1,20 @@
 body{
   background-color: #dddddd;
+  font-family: 'Hind', sans-serif;
 }
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap");
+
 .hero {
   height: 50vh;
   width: 98vw;
-  background-image: url(../Images/cherrydeck-rMILC1PIwM0-unsplash.jpg);
+  background-image: url(../Images/Shaping\ Slick\ Dark\ Interiors\ With\ Black\ &\ Grey\ Decor.jpeg);
   background-size: cover;
   background-position: center;
 }
 .team {
   text-align: center;
   padding-top: 4rem;
+  color: #cecfcf;
 }
 
 /* Meet The Team css */
@@ -26,9 +30,9 @@ body{
 .container1 {
   /* height: 100vh;
     width: 100vw; */
-  max-height: 800px;
+  max-height: 600px;
   max-width: 1280px;
-  min-height: 600px;
+  min-height: 400px;
   min-width: 1000px;
   display: flex;
   justify-content: space-around;
@@ -50,8 +54,7 @@ body{
   }
    */
 h2 {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
   color: #fff;
   margin: 30px;
   opacity: 0;
@@ -183,13 +186,13 @@ h6:hover {
 /* Third Team Memner */
 
 .card3 {
-  background: url("../Images/matheus-ferrero-W7b3eDUb_2I-unsplash.jpg") center
+  background: url("../Images/prince-akachi-i2hoD-C2RUA-unsplash.jpg") center
     center no-repeat;
   background-size: 300px;
 }
 
 .card3:hover {
-  background: url("../Images/matheus-ferrero-W7b3eDUb_2I-unsplash.jpg") left
+  background: url("../Images/prince-akachi-i2hoD-C2RUA-unsplash.jpg") left
     center no-repeat;
   background-size: 600px;
 }
@@ -206,6 +209,9 @@ h6:hover {
 
 .card3:hover .fa {
   opacity: 1;
+}
+.regina-text{
+  color: #f50d0d;
 }
 
 .icons1 {

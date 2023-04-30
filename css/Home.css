@@ -1,16 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap");
+
+body{
+  font-family: 'Hind', sans-serif;
+}
 .picture {
   width: 30rem;
   height: 30rem;
   position: absolute;
   bottom: 10rem;
 }
-
 .better {
-  margin-top: 10rem;
+  margin-top: 7rem;
 }
 .image {
   width: 30rem;
   height: 30rem;
+}
+.hero-text {
+  font-size: 0.8rem;
 }
 
 /* Button*/
@@ -63,7 +70,7 @@
 } */
 
 /*Footer*/
-.footer{
+.footer {
   padding-top: 2rem;
 }
 
@@ -72,7 +79,7 @@
   padding-top: 0.5rem;
 }
 
-.icon-css{
+.icon-css {
   padding-bottom: 0.5rem;
 }
 

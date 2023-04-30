@@ -1,17 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap");
+
 .about{
     text-align: center;
     padding-top: 2rem;
     font-weight: 900;
+    color: #cecfcf;
 }
 .body{
     background-color: rgb(232, 235, 236);
+    font-family: 'Hind', sans-serif;
 }
 /*First Iamge*/
 .hero {
   height: 50vh;
   width: 98vw;
   background-image: 
-    url(../Images/alberto-castillo-q-mx4mSkK9zeo-unsplash.jpg);
+    url(../Images/patient\ ╳\ dark\ version_.jpeg);
     background-size: cover;
     background-position: center;
 }
