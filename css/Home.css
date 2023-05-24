@@ -1,7 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap");
-
-body{
-  font-family: 'Hind', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Hind", sans-serif;
 }
 .picture {
   width: 30rem;
@@ -12,12 +16,16 @@ body{
 .better {
   margin-top: 7rem;
 }
+.better-text {
+  font-size: 2.5rem;
+}
 .image {
   width: 30rem;
   height: 30rem;
 }
 .hero-text {
-  font-size: 0.8rem;
+  font-size: 1rem;
+  font-weight: 500;
 }
 
 /* Button*/
@@ -57,31 +65,19 @@ body{
   transform: scaleX(1) skewX(35deg);
 }
 
-/*Handsome Home*/
-
-/* .handsome-head{
-  text-align: center;
-  padding-top: 2rem;
-}
-
-.handsome{
-
-  padding: 1rem 15rem;
-} */
-
 /*Footer*/
 .footer {
   padding-top: 2rem;
 }
 
 .copyright {
-  font-size: x-small;
+  font-size: 0.9rem;
   padding-top: 0.5rem;
 }
 
-.icon-css {
+/* .icon-css {
   padding-bottom: 0.5rem;
-}
+} */
 
 /*Icon*/
 .icons {
@@ -147,3 +143,70 @@ body{
     transform: rotate(-15deg);
   }
 }
+
+@media screen and (max-width: 600px) {
+  .navbar {
+    position: relative;
+    right: 5rem;
+  }
+  .main {
+  }
+  .image-col {
+    padding-top: 1rem;
+  }
+  .image-min {
+    width: 22rem;
+  }
+  .copyright {
+    font-size: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  .icon-css {
+    padding-bottom: 1rem;
+  }
+  .icon {
+    display: inline-flex;
+    width: 15px;
+    height: 15px;
+    text-decoration: none;
+    font-size: 10px;
+    color: #000000;
+    border-radius: 50%;
+    outline: 2px solid #000000;
+    transition-property: outline-offset, outline-color, background-color;
+    transition-duration: 0.25s;
+  }
+}
+
+/* @media screen and(max-width:1366px) {
+  .navbar {
+    position: relative;
+    right: 5rem;
+  }
+  .image-col {
+    padding-top: 1rem;
+  }
+  .image {
+    width: 50rem;
+  }
+  .copyright {
+    font-size: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  .icon-css {
+    padding-bottom: 1rem;
+  }
+  .icon {
+    display: inline-flex;
+    width: 15px;
+    height: 15px;
+    text-decoration: none;
+    font-size: 10px;
+    color: #000000;
+    border-radius: 50%;
+    outline: 2px solid #000000;
+    transition-property: outline-offset, outline-color, background-color;
+    transition-duration: 0.25s;
+  }
+  
+}  */

@@ -315,9 +315,15 @@ h6:hover {
 
 @media screen and (max-width:600px)
 {
+  .navbar {
+    position: relative;
+    right: 5rem;
+  }
   .team {
     text-align: center;
     padding-top: 6rem;
+    color: #b4afaf;
+    font-size: 3rem;
   }
   .hero {
     height: 50vh;

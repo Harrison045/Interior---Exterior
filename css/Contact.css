@@ -170,3 +170,30 @@ label{
       transform: rotate(-15deg);
     }
   }
+  @media screen and (max-width:600px) {
+    .navbar {
+      position: relative;
+      right: 5rem;
+    }
+    .call{
+      font-size: 0.7rem;
+    }
+    .location{
+      font-size: 0.7rem;
+    }
+    .icon {
+      display: inline-flex;
+      width: 20px;
+      height: 20px;
+      text-decoration: none;
+      font-size: 13px;
+      color: #000000;
+      border-radius: 50%;
+      outline: 2px solid #000000;
+      transition-property: outline-offset, outline-color, background-color;
+      transition-duration: 0.25s;
+    }
+    .footer{
+      padding-top: 1rem;
+    }
+  }

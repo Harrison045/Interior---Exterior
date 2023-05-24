@@ -8,9 +8,10 @@
 .welcome {
   color: #fff;
   text-align: center;
+  font-size: 1.5rem;
   position: absolute;
   top: 40%;
-  left: 23%;
+  left: 30%;
 }
 .click {
   font-size: 1rem;

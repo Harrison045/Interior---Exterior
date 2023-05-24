@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap");
-
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 body{
   font-family: 'Hind', sans-serif;
 }
@@ -191,5 +195,34 @@ a{
   }
   40% {
     transform: rotate(-15deg);
+  }
+}
+
+@media screen and (max-width:600px) {
+  .navbar {
+    position: relative;
+    right: 5rem;
+  }
+  .navbar-toggler{
+    background-color: #fff;
+  }
+  .interior{
+    width: 22rem;
+    height: 13rem;
+  }
+  .exterior{
+    width: 22rem;
+    height: 16rem;
+  }
+  .pergola{
+    width: 22rem;
+    height: 13rem;
+  }
+  .hero {
+    height: 40vh;
+    width: 100vw;
+    background-image: url(../Images/A\ duo\ of\ apartments\ in\ Moldova\ showcase\ contrasting\ interior\ design.png);
+    background-size: cover;
+    background-position: center;
   }
 }

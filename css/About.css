@@ -1,198 +1,235 @@
 @import url("https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap");
-
-.about{
-    text-align: center;
-    padding-top: 2rem;
-    font-weight: 900;
-    color: #cecfcf;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-.body{
-    background-color: rgb(232, 235, 236);
-    font-family: 'Hind', sans-serif;
+.about {
+  text-align: center;
+  padding-top: 2rem;
+  font-weight: 900;
+  color: #cecfcf;
+}
+.body {
+  background-color: rgb(232, 235, 236);
+  font-family: "Hind", sans-serif;
 }
 /*First Iamge*/
 .hero {
   height: 50vh;
   width: 98vw;
-  background-image: 
-    url(../Images/patient\ ╳\ dark\ version_.jpeg);
-    background-size: cover;
-    background-position: center;
+  background-image: url(../Images/patient\ ╳\ dark\ version_.jpeg);
+  background-size: cover;
+  background-position: center;
 }
 /*Our Story*/
-.our-story{
-    padding-top: 4rem;
-     /* padding-right: 4rem; */
-    padding-left: 2rem; 
+.our-story {
+  padding-top: 4rem;
+  padding-left: 2rem;
 }
-.col-img{
-    width: 25rem;
-    height: 15rem;
+.col-img {
+  width: 25rem;
+  height: 15rem;
 }
 
 /*Know little more*/
-.col-know{
-    padding-top: 7rem;
+.col-know {
+  padding-top: 5rem;
 }
-.know{
-    color: rgb(144, 145, 145);
-    writing-mode: vertical-rl;
-    text-orientation: mixed;
+.know {
+  color: rgb(144, 145, 145);
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
 }
-.col-text{
-    padding-top: 4rem;
+.col-text {
+  padding-top: 4rem;
 }
 
 /*Dan Image*/
-.dan-img{
-    width: 65rem;
-    height: 25rem;
-    padding-left: 2rem;
+.dan-img {
+  width: 65rem;
+  height: 25rem;
+  padding-left: 2rem;
 }
 
 /*Quote*/
-.quote{
-    font-size: 1.5rem;
+.quote {
+  font-size: 1.5rem;
 }
-#quote{
-    padding-top: 7rem;
+#quote {
+  padding-top: 7rem;
 }
-.author{
-    font-size: 0.7rem;
+.author {
+  font-size: 0.7rem;
 }
-.quote-img{
-    width: 32rem;
-    height: 20rem;
+.quote-img {
+  width: 32rem;
+  height: 20rem;
 }
 /*Team*/
-.team-img{
-    width: 32rem;
-    height: 20rem;
+.team-img {
+  width: 32rem;
+  height: 20rem;
 }
-#team{
-    padding-top: 7rem;
-    color: rgb(165, 165, 165);
+#team {
+  padding-top: 7rem;
+  color: rgb(165, 165, 165);
 }
 /*button*/
 
 .button {
-    --color: #000000;
-    position: relative;
-    display: inline-block;
-    text-decoration: none;
-    font-size: 10px;
-    color: var(--color);
-    padding: 3px 3px;
-    border: 3px solid var(--color);
+  --color: #000000;
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 10px;
+  color: var(--color);
+  padding: 3px 3px;
+  border: 3px solid var(--color);
 }
-#button{
-    padding-left: 3rem;
+#button {
+  padding-left: 3rem;
 }
 
 .button::before,
 .button::after {
-    content: '';
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    border: inherit;
-    transition: width .25s .15s, height .25s;
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border: inherit;
+  transition: width 0.25s 0.15s, height 0.25s;
 }
 
 .button::before {
-    top: -15px;
-    left: -15px;
-    border-width: 3px 0 0 3px;
+  top: -15px;
+  left: -15px;
+  border-width: 3px 0 0 3px;
 }
 
 .button::after {
-    bottom: -15px;
-    right: -15px;
-    border-width: 0 3px 3px 0;
+  bottom: -15px;
+  right: -15px;
+  border-width: 0 3px 3px 0;
 }
 
- .button:hover::before,
+.button:hover::before,
 .button:hover::after {
-    width: calc(100% + 29px);
-    height: calc(100% + 29px);
-} 
-
+  width: calc(100% + 29px);
+  height: calc(100% + 29px);
+}
 
 /*Footer*/
-.footer{
-    padding-top: 2rem;
+.footer {
+  padding-top: 2rem;
+}
+
+.copyright {
+  font-size: x-small;
+  padding-top: 0.5rem;
+}
+
+.icon-css {
+  padding-bottom: 0.5rem;
+}
+
+/*Icon*/
+.icons {
+  display: flex;
+  column-gap: 25px;
+}
+.icon {
+  display: inline-flex;
+  width: 25px;
+  height: 25px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #000000;
+  border-radius: 50%;
+  outline: 2px solid #000000;
+  transition-property: outline-offset, outline-color, background-color;
+  transition-duration: 0.25s;
+}
+.icon:hover {
+  outline-offset: 4px;
+}
+.icon i {
+  margin: auto;
+}
+.icon:hover i {
+  animation: shake 0.25s;
+}
+.icon--instagram:hover {
+  background-image: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  outline-color: #a02d76;
+}
+.icon--twitter:hover {
+  background-color: #1da1f2;
+  outline-color: #1da1f2;
+}
+.icon--linkedin:hover {
+  background-color: #0077b5;
+  outline-color: #0077b5;
+}
+.icon--github:hover {
+  background-color: #000000;
+  outline-color: #000000;
+  color: white;
+}
+@keyframes shake {
+  10% {
+    transform: rotate(15deg);
   }
-  
-  .copyright {
-    font-size: x-small;
-    padding-top: 0.5rem;
+  20% {
+    transform: rotate(-15deg);
   }
-  
-  .icon-css{
-    padding-bottom: 0.5rem;
+  30% {
+    transform: rotate(15deg);
   }
-  
-  /*Icon*/
-  .icons {
-    display: flex;
-    column-gap: 25px;
+  40% {
+    transform: rotate(-15deg);
   }
-  .icon {
-    display: inline-flex;
-    width: 25px;
-    height: 25px;
-    text-decoration: none;
-    font-size: 15px;
-    color: #000000;
-    border-radius: 50%;
-    outline: 2px solid #000000;
-    transition-property: outline-offset, outline-color, background-color;
-    transition-duration: 0.25s;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar {
+    position: relative;
+    right: 5rem;
   }
-  .icon:hover {
-    outline-offset: 4px;
+  .list-li{
+    font-size: 1rem;
   }
-  .icon i {
-    margin: auto;
+  .list2{
+    font-size: 0.9rem;
   }
-  .icon:hover i {
-    animation: shake 0.25s;
+  .hero {
+    height: 40vh;
+    width: 100vw;
+    background-image: url(../Images/patient\ ╳\ dark\ version_.jpeg);
+    background-size: cover;
+    background-position: center;
   }
-  .icon--instagram:hover {
-    background-image: radial-gradient(
-      circle at 30% 107%,
-      #fdf497 0%,
-      #fdf497 5%,
-      #fd5949 45%,
-      #d6249f 60%,
-      #285aeb 90%
-    );
-    outline-color: #a02d76;
+  .col-text{
+    font-size: 0.7rem;
   }
-  .icon--twitter:hover {
-    background-color: #1da1f2;
-    outline-color: #1da1f2;
+  .col-img{
+    width: 22rem;
+    height: 12rem;
   }
-  .icon--linkedin:hover {
-    background-color: #0077b5;
-    outline-color: #0077b5;
+  .quote-img{
+    width: 22rem;
+    height: 12rem;
   }
-  .icon--github:hover {
-    background-color: #000000;
-    outline-color: #000000;
-    color: white;
+  .team-img{
+    width: 22rem;
+    height: 14rem;
+    padding-top: 3rem;
   }
-  @keyframes shake {
-    10% {
-      transform: rotate(15deg);
-    }
-    20% {
-      transform: rotate(-15deg);
-    }
-    30% {
-      transform: rotate(15deg);
-    }
-    40% {
-      transform: rotate(-15deg);
-    }
-  }
+}
